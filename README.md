@@ -1,4 +1,4 @@
-# Úkol 3
+# Úkol 4
 
 Cílem je vytvořit webovou stránku pro zobrazení vizitek. Úvodní stránka bude zobrazovat seznam všech vizitek, z každé vizitky bude možné se prokliknout na
 její detail, kde bude spolu s vizitkou zobrazena také mapa.
