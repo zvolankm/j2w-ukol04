@@ -107,3 +107,7 @@ a:hover .vizitka {
     margin: 1em;
     box-shadow: 5px 5px 10px black;
 }
+.tlacitko {
+    width: 450px;
+    height:100px
+}
