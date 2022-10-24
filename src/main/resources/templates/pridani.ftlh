@@ -23,8 +23,7 @@
     </div>
     </div>
     <div class=”tlacitko”>
-        <button type=”submit” class=”tlacitko tlacitko--pridat” title=”Kliknutim vizitku pridate><i class=”bi bi-person-plus-fill” role=”img” aria-label = "append"></i></button>
-        <span><strong>Submit</strong></span></button>
+        <button type=”submit” class=”tlacitko tlacitko--pridat” title=”Kliknutim vizitku pridate><i class=”bi bi-person-plus-fill” role=”img” aria-label = "append"><span><strong>Submit</strong></span></i></button>
     </div>
 
     <nav>

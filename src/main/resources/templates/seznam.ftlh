@@ -27,9 +27,9 @@
             </div>
             <form action="/delete" method="post">
                 <input type="hidden" name="id" value="${vizitka?index}">
-                <button type = "submit" class="btn btn-primary"><i class="a-btn-slide-text" role="img" aria-label="Smazat" ></i></button>
+                <button type = "submit" class="btn btn-primary"><i class="a-btn-slide-text" role="img" aria-label="Smazat"><span><strong>Smazat</strong></span></i></button>
                 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-                <span><strong>Smazat</strong></span></button>
+
             </form>
 
         </a>
