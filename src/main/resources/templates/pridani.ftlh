@@ -7,17 +7,28 @@
 <body>
 <form action="/" method="post" class="detail">
     <div class="vizitka vizitka--formular">
-        <div class="jmeno"><input id=”full-name” name=”jmeno” class="form-control" type="text" placeholder=”Jmeno prijmeni”/></div>
-        <div class="firma"><input id=”organization” name=”firma” class=”form-control” type=”text” placeholder=”Nazev firmy”/></div>
+        <label for="jmeno" class="form-label">Jmeno</label>
+        <input type="text" class="form-control" id="jmeno" name="jmeno">
+        <label for="firma" class="form-label">Firma</label>
+        <input type="text" class="form-control" id="firma" name="firma">
         <div class="udaje">
             <div class="adresa">
-                <div><input id=”street” name=”ulice” class=”form-control” type=”text” placeholder=”Ulice” title=”Zadejte ulici a cislo domu”/></div>
-                <div><input id=”town-and-postcode” name=”obecPsc” class=”form-control” type=”text” placeholder=”Obec a PSC” title=”Zadejte nazev obce a PSC”/></div>
+                <label for="ulice" class="form-label">Ulice</label>
+                <input type="text" class="form-control" id="ulice" name="ulice">
+            <br>
+                <label for="obec-psc" class="form-label">Obec Psc</label>
+                <input type="text" class="form-control" id="obec-psc" name="obecPsc">
+            </br>
             </div>
             <div class="kontakty">
-                <div><i class=”bi bi-at”></i> <input id=”email” name=”email” class=”form-control” type=”text” placeholder=”E-mail” title=”Zadejte e-mail”/></div>
-                <div><i class=”bi bi-phone”></i> <input id=”phone” name=”telefon” class=”form-control” type=”text” placeholder=”Telefon” title=”Zadejte telefon”/></div>
-                <div><i class=”bi bi-globe”></i> <input id=”web” name=”web” class=”form-control” type=”text” placeholder=”Webova stranka” title=”Zadejte webovou stranku”/></div>
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+                <label for="telefon" class="form-label">Telefon</label>
+                <input type="tel" class="form-control" id="telefon" name="telefon">
+                <br>
+                <label for="web" class="form-label">Web</label>
+                <input type="text" class="form-control" id="web" name="web">
+                </br>
             </div>
         </div>
     </div>
