@@ -27,15 +27,12 @@ public class Vizitka {
     this.web = web;
   }
 
-
-
   public String getJmeno() {
     return jmeno;
   }
 
-
   public void setJmeno(String jmeno) {
-    this.jmeno = Objects.requireNonNull(jmeno);
+    this.jmeno = jmeno;
   }
 
   public String getFirma() {
@@ -43,7 +40,7 @@ public class Vizitka {
   }
 
   public void setFirma(String firma) {
-    this.firma = Objects.requireNonNull(firma);
+    this.firma = firma;
   }
 
   public String getUlice() {
@@ -51,36 +48,42 @@ public class Vizitka {
   }
 
   public void setUlice(String ulice) {
-    this.ulice = Objects.requireNonNull(ulice);
+    this.ulice = ulice;
   }
 
   public String getObecPsc() {
     return obecPsc;
-        }
-
-      public void setObecPSc(String obecPsc) {
-        this.obecPsc = Objects.requireNonNull(obecPsc);
-      }
-
-      public String getEmail() {
-        return email;
-      }
-      public void setEmail(String email) {
-        this.email = email;
-      }
-      public String getTelefon() {
-        return telefon;
-      }
-      public void setTelefon(String telefon) {
-        this.telefon = telefon;
-      }
-      public String getWeb() {
-        return web;
-      }
-      public void setWeb(String web) {
-        this.web = web;
-      }
-      public String getCelaAdresa() {
-      return ulice + ", " + obecPsc;
   }
-    }
+
+  public void setObecPsc(String obecPsc) {
+    this.obecPsc = obecPsc;
+  }
+
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+  public String getTelefon() {
+    return telefon;
+  }
+
+  public void setTelefon(String telefon) {
+    this.telefon = telefon;
+  }
+
+  public String getWeb() {
+    return web;
+  }
+
+  public void setWeb(String web) {
+    this.web = web;
+  }
+
+  public String getCelaAdresa() {
+    return ulice + ", " + obecPsc;
+  }
+  }
